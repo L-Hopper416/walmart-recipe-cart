@@ -8,10 +8,14 @@ const URL = 'https://grocery.walmart.com/';
 // Matches with "/api/walmart/cartLoad"
 router.post('/cartLoad', (req, res) => {
     vo(run(req.body))(function () {
-        console.log("botfinished")
+        console.log("Cart Loaded!")
       });
 })
-
+function* emptyCart(auth){
+    const nightmare = Nightmare({
+        show: true
+    });
+}
 function* run(items){
     const nightmare = Nightmare({
         show: true

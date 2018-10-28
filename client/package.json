@@ -5,9 +5,14 @@
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "axios": "^0.18.0",
-    "nightmare": "^3.0.1",
+    "history": "^4.7.2",
+    "prop-types": "^15.6.1",
+    "radium": "^0.25.0",
     "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.5"
   },
   "scripts": {
