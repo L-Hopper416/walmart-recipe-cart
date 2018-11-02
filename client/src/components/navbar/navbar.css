@@ -1,0 +1,77 @@
+ .navbar .container {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: bold;
+    background-color: #007bc4;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: none;
+   
+}
+/* /* .navbar-header {
+    float: none;
+} */
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #007bc4;
+    border: none;
+     z-index: 1;
+}
+/*
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: none;
+}
+.navbar li, .navbar li a{
+    padding: 0;
+}
+*/
+
+.navbar li p, .navbar li a:active, .navbar li a:hover, .navbar li a:visited, .navbar li a:link{
+    color: beige;
+    text-decoration: none;
+}
+
+.navbar-header li {
+    list-style: none;
+    float: right;
+    padding: 15px;
+}
+
+#brand{
+    color: beige;
+    text-shadow: none;
+    margin-left: 3px;
+}
+/*
+.navbar .active a{
+    background: #007bc4 !important;
+    box-shadow: none !important;
+}
+.navbar .active p {
+    color: beige;
+    text-shadow: none;
+}
+*/
+
+.navbar-nav li, .navbar-nav li a{
+    padding: 0; 
+    width: 240px;
+    float:none;
+}
+
+.navbar-nav .glyphicon {
+    width: 40px;
+}
+
+.navbar-nav .form-control {
+    width: 200px;
+    float: right;
+}
+
+#searchbar {
+    padding: 0;
+}

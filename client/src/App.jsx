@@ -7,7 +7,7 @@ import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import Recipes from "./pages/Recipes"
 import Ingredients from "./pages/Ingredients"
-
+import "./utils/App.css"
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
 
@@ -52,7 +52,7 @@ class App extends Component {
       username: this.state.username
     }
     return (
-      <div>
+      <div style = {{height: "100%"}}>
         <Navbar auth={auth} login={this.login.bind(this)} signout={this.signout.bind(this)} />
 
         <Route exact path="/landing"
